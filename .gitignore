@@ -1,0 +1,29 @@
+# Local dependencies, caches and editor/runtime state
+node_modules/
+.cache/
+.codex/
+.agents/
+.idea/
+.vscode/
+
+# Credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+
+# Local QA harnesses, screenshots and intermediate scripts
+output/
+tmp/
+*.log
+*.zip
+*.tmp
+
+# User's original map reference and superseded lettering.
+# The website uses map-v2.webp and headline-v3.webp instead.
+assets/location.png
+assets/headline-v2.webp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
